@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, "Inter";
+}
+
+.container {
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 35px;
+}
+
+.main {
+    margin: 0px 153px;
+}
+
+.header-top {
+    padding-top: 6px;
+    display: flex;
+}
+
+.location {
+    display: flex;
+}
+
+.loc-choose {
+    font-family: "Inter";
+    background-color: #f0f2f5;
+    font-size: 18px;
+    border: none;
+    width: 130px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.loc-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.p1 {
+    font-family: "Inter";
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.p2 {
+    font-family: "Inter";
+    color: #dee0e5;
+    cursor: pointer;
+}
+
+.right {
+    margin-left: 360px;
+}
+
+.links {
+    display: flex;
+    gap: 14px;
+}
+
+.be-saler {
+    font-family: "Inter";
+    text-decoration: none;
+    color: #7f4dff;
+    cursor: pointer;
+}
+
+.open-loc {
+    font-family: "Inter";
+    text-decoration: none;
+    color: #7f4dff;
+    cursor: pointer;
+}
+
+.p3 {
+    font-family: "Inter";
+    font-size: 17px;
+    text-decoration: none;
+    color: #4d4f59;
+    cursor: pointer;
+}
+
+.p4 {
+    cursor: pointer;
+}
+
+.uzb {
+    cursor: pointer;
+}
+
+
+.header-left {
+    display: flex;
+}
+
+.header-mid {
+    display: flex;
+    margin-top: 25px;
+}
+
+.header-center {
+    display: flex;
+    margin-left: 8px;
+}
+
+.uzum-logo {
+    margin-top: 5px;
+    cursor: pointer;
+    height: 35px;
+    width: 250px;
+}
+
+.katalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 133px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    color: #7f4dff;
+    background-color: #e5e5ff;
+    border: none;
+    cursor: pointer;
+    margin-left: 27px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 590px;
+    height: 45px;
+    border: 1px solid rgba(54, 55, 64, .2);
+    border-radius: 5px;
+}
+
+.search {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+.search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    background-color: #F0F1F5;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    gap: 10px;
+    margin-left: 23px;
+}
+
+.header-right button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.account {
+    width: 97px;
+    background-color: #d2d2de;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.account:hover {
+    background-color: #d2d2de;
+}
+
+.liked {
+    width: 138px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.liked:hover {
+    background-color: #d2d2de;
+}
+
+.basket {
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 95px;
+}
+
+.basket:hover {
+    background-color: #d2d2de;
+}
+
+.header-end {
+    display: flex;
+    margin-top: 25px;
+}
+
+.items {
+    display: flex;
+    gap: 25px;
+}
+
+.items a {
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.a-right {
+    color: grey;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.item-img {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.item-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.end {
+    margin-top: 365px;
+    display: flex;
+    gap: 220px;
+}
+
+.end-mid {
+    display: grid;
+}
+
+.end-end {
+    display: grid;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.end-a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+
+.end-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+
+.end2 {
+    display: grid;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.apple {
+    width: 27px;
+    height: 27px;
+}
+
+.install {
+    display: flex;
+    gap: 20px;
+}
+
+.end-img {
+    display: flex;
+    gap: 10px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 32, 38, 0.55);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-box {
+    width: 485px;
+    height: 540px;
+    background: white;
+    border-radius: 10px;
+    padding: 32px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-btn {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+.modal-box h2 {
+    font-size: 27px;
+    color: #1f2026;
+    margin-bottom: 20px;
+    margin-top: 72px;
+}
+
+.accept {
+    margin-bottom: 25px;
+    font-size: 19px;
+    color: rgb(23, 20, 20);
+    font-weight: 300;
+}
+
+.modal-box input {
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background: #e8eaee;
+    padding-left: 20px;
+    font-size: 24px;
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.get-code {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #7000ff;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    margin-bottom: 120px;
+}
+
+.modal-text {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.main-win{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-win-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 130px;
+    height: 46px;
+    background-color: #7000ff;
+    color: white;
+    border: 1px solid #7000ff;
+    border-radius: 8px;
+    cursor: pointer;
+}
